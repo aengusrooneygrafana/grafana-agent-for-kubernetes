@@ -1,0 +1,1 @@
+REMOTE_WRITE_URL='https://prometheus-us-central1.grafana.net/api/prom/push' REMOTE_WRITE_USERNAME=$PROM_USER REMOTE_WRITE_PASSWORD=$PROM_PUBLISHER_KEY /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/aengusrooneygrafana/agent/master/production/kubernetes/install.sh)" | kubectl apply -f -

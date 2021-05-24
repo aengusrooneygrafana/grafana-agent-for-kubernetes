@@ -1,0 +1,10 @@
+export PROM_PUBLISHER_KEY=""
+export PROM_USER=""
+
+export LOKI_PUBLISHER_KEY="" 
+export LOKI_USER=""
+
+echo $PROM_USER 
+echo $PROM_PUBLISHER_KEY
+echo $LOKI_USER
+echo $LOKI_PUBLISHER_KEY
